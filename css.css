@@ -1,6 +1,15 @@
-.container_1 {
+.container {
+    background: blue;
+    color: white;
     display: flex;
-    background: lightblue;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.container_1 {
+    
+    
     height: 70px;
     flex-direction: row;
     justify-content: center;
@@ -8,6 +17,7 @@
 }
 
 .container_1 a {
+    display: block;
     height: 50px;
     background: blue;
     color: white;
@@ -16,4 +26,21 @@
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px 10px;
+}
+
+.container_1 a:hover {
+    background: darkblue;
+    color: orange;
+    text-transform: uppercase;
+    
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+
+.meni img{
+    height: 50px;
+    width: 50px;
 }
