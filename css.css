@@ -49,3 +49,12 @@
     width: 50px;
     margin-right: 15px;
 }
+
+.footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 400px;
+    padding-right: 400px;
+}
