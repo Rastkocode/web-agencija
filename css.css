@@ -1,8 +1,10 @@
 .container {
     background: blue;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .container_1 {
@@ -24,6 +26,13 @@
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px 10px;
+}
+
+.container_1 a:hover {
+    background: darkblue;
+    color: orange;
+    text-transform: uppercase;
+    
 }
 
 .logo img{
