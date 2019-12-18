@@ -1,16 +1,8 @@
-.container {
-    background: white;
-    color: blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 140px;
-    
-}
+
+
 
 .container_1 {
-    
+    font-size: 1.6em;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -56,3 +48,7 @@
     padding-left: 400px;
     padding-right: 400px;
 }
+h2 {
+    text-align: center;
+}
+
