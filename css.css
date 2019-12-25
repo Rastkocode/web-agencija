@@ -11,33 +11,40 @@
 .container_1 {
     font-size: 1.6em;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: flex-end;
+    overflow: hidden;
 }
 
 .container_1 a {
-    display: block;
-    height: 50px;
-    background: blue;
-    color: white;
+    
+    
+
+
+    color: darkcyan;
+    font-size: 90%;
     text-decoration: none;
-    margin-left: 10px;
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    padding-left: 8%;
+    padding-right: 8%;
+    letter-spacing: 1px;
 }
 
 .container_1 a:hover {
-    background: darkblue;
-    color: orange;
+    color: darkcyan;
+    font-size: 90%;
+    text-decoration: underline;
     text-transform: uppercase;
+    font-family: Raleway;
+    padding-left: 8%;
+    padding-right: 8%;
+    letter-spacing: 1px;
     
 }
 
-.logo img{
-    height: 120px;
-    width: 240px;
-    margin-left: 15px;
+.Logo img {
+    height: 60px;
     
 }
 
