@@ -32,7 +32,7 @@ body {
 }
 
 .Logo img {
-    padding: 2vh;
+    padding-top: 3vh;
     width: 6vw;
     height: auto;
 
@@ -91,6 +91,7 @@ body {
     font-family: Raleway;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding-top: 40vh;
     letter-spacing: 1 vw;
     line-height: 4vh;
 
@@ -103,7 +104,25 @@ h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
     letter-spacing: 1 vw;
+
 }
+.h2contact {
+    padding-top: 20vh;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+
+    padding-top: 20vh;
+}
+
+
 
 .one, .two {
     display: flex;
@@ -111,25 +130,23 @@ h2 {
     justify-content: space-evenly;
     align-content: center;
     padding-left: 8vw;
+    padding-right: 8vw; 
+
+   
+    /* padding-left: 8vw;
     padding-right: 8vw;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
-    padding-left: 8vw;
-    padding-right: 8vw;
-}
+
+
 
 label {
-    color: rgb(36, 36, 36);
+    /* color: rgb(36, 36, 36);
     font-size: 1vw;
     text-decoration: none;
     font-family: Raleway;
     padding-left: 1vw;
     padding-right: 1vw;
     letter-spacing: 1 vw;
-    line-height: 4vh;
+    line-height: 4vh; */
 }
