@@ -11,16 +11,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="" alt="Logo kompanije">
+
+    <div class="Logo">
+            <img src="pics/car_logo.png" alt="Logo kompanije">
         </div>
-        <nav class="container_1">
+
+    <div class="container">
+        <nav class="container_1" id="container1">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" id="menu1">
+                <img src="pics/meni_slika.png">
+            </a>
         </nav>
+
     </div>
     <div class="containerabout">
         <div class="p1">
@@ -40,6 +46,17 @@
                 deserunt natus.
             </p>
         </div>
+
+        <!-- <script>
+            function myFunction() {
+              var x = document.getElementById("container1");
+              if (x.className === "container_1") {
+                x.className += " responsive";
+              } else {
+                x.className = "container_1";
+              }
+            }
+            </script> -->
 
 
 </body>
